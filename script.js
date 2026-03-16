@@ -46,7 +46,7 @@ function deleteLast() {
 }
 
 function calculateResult() {
-    if (currentInput) return;
+    if (!currentInput) return;
 
     const lastChar = currentInput.slice(-1);
 
