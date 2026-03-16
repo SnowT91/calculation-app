@@ -85,4 +85,22 @@ buttons.forEach(button => {
     });
 });
 
+document.addEventListener('keydown', (event) => {
+    const key = event.key;
+
+    if (!isNaN(key) || ['+', '-', '*', '/', '.'].includes(key)) {
+        appendValue(key);
+    } else if (key === 'Enter') {
+        calculateResult();
+    } else if (key === 'Backspace') {
+        deleteLast();
+    } else if (key === 'Escape') {
+        clearInput();
+    } else {
+        return;
+    }
+
+    updateDisplay();
+});
+
 updateDisplay();
