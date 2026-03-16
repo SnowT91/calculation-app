@@ -32,6 +32,10 @@ function appendValue(value) {
         if (lastPart.includes('.')) {
             return;
         }
+
+        if (lastPart === '') {
+            currentInput += '0';
+        }
     }
 
     currentInput += value;
