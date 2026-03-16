@@ -22,6 +22,10 @@ A simple calculator built with HTML, CSS and JavaScript.
 
 This project was created to practice DOM manipulation, event handling, input validation, and building interactive UI logic with JavaScript.
 
+## Live Demo
+
+[Open Project](https://calculation-app-archyteam.netlify.app)
+
 ## Screenshot
 
 ![Calculator App Screenshot](images/screenshot.png)
