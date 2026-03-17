@@ -33,6 +33,7 @@ body {
     align-items: center;
     justify-content: flex-end;
     overflow-x: auto;
+    word-break: break-all;
 }
 
 .buttons {
