@@ -24,7 +24,7 @@ This project was created to practice DOM manipulation, event handling, input val
 
 ## Live Demo
 
-[Open Project](https://calculation-app-archyteam.netlify.app)
+[Open Project](https://calculator-app-archyteam.netlify.app)
 
 ## Screenshot
 
